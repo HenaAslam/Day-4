@@ -1,0 +1,154 @@
+body{
+    margin:0;
+    font-family: 'Inter', sans-serif;
+    background-color:rgb(206, 223, 219);
+    
+}
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+.navbar{
+    height:12%;
+    display: flex;
+    background-color: white;
+    padding:15px;
+    
+
+}
+.navlinks{
+    margin-right: auto;
+    padding:10px;
+    
+    
+}
+.nav-link{
+    padding:10px;
+    color:black;
+    text-decoration: none;
+   
+}
+
+.dp{
+    height:2.7%;
+    width:2.7%;
+    background-color: rgb(201, 76, 155);
+    
+    border-radius: 50%;
+
+}  
+.notification-icon{
+    padding:10px;
+    background-color: rgb(229, 222, 222);
+    border-radius: 50%;
+}
+
+ .intro{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(84, 84, 219);
+    color:white;
+ 
+    
+} 
+.intro p{
+    line-height: 30px;
+    
+}
+.intro button{
+    height:50px;
+    width:200px;
+    vertical-align: middle;
+    border-radius: 8px;
+    border:none;
+    color:black
+}
+.intro button:hover{
+    background-color: rgb(52, 224, 52);
+    color:white;
+    font-weight: 900;
+}
+
+
+.anotherbar{
+    display: flex;
+    justify-content: space-around;
+    
+   background-color: white;
+}
+
+.anotherbar-items ion-icon{
+    height: 20px;
+    width:20px;
+    background-color: lightpink;
+    padding:20px;
+    border-radius: 50%;
+    color:salmon;
+   vertical-align: middle;
+}
+span{
+    padding:10px;
+    font-weight: 900;
+   
+}
+span .sub{
+    display: block;
+    color:grey
+}
+.cardswrap1{
+    display:flex;
+    flex-direction: column; 
+    
+}
+.cardswrap1 h2{
+    margin-left: 230px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cards img{
+    width:200px;
+    height:200px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card{
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card h5{
+    padding-left: 10px;
+}
+.cards ion-icon{
+    height: 10px;
+    width:10px;
+    background-color: white;
+    padding:10px;
+    border-radius: 50%;
+    color:rgb(163, 157, 156);
+   vertical-align: middle;
+}
+
+.cards ion-icon:hover{
+    background-color:grey ;
+    color:white;
+    cursor: pointer;
+}
+.footer{
+    display:flex;
+    justify-content: space-around;
+    margin-top:100px;
+    color:grey
+}
+.footer a{
+    text-decoration: none;
+    color:grey;
+    padding:10px;
+}
