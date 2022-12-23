@@ -31,10 +31,10 @@ body{
 }
 
 .dp{
-    height:2.7%;
-    width:2.7%;
+    height:4%;
+    width:4%;
     background-color: rgb(201, 76, 155);
-    
+    padding:10px;
     border-radius: 50%;
 
 }  
@@ -63,12 +63,13 @@ body{
     vertical-align: middle;
     border-radius: 8px;
     border:none;
-    color:black
+    color:black;
+    font-weight: 900;
 }
 .intro button:hover{
     background-color: rgb(52, 224, 52);
     color:white;
-    font-weight: 900;
+    
 }
 
 
