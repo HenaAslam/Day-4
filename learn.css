@@ -1,0 +1,234 @@
+body{
+    margin:0;
+    font-family: 'Inter', sans-serif;
+    background-color: beige;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    height:5vh;
+    background-color: white;
+ 
+}
+nav img{
+    border-radius: 50%;
+    height:90%;
+    padding:5px 10px;
+    vertical-align: middle;
+    margin-top:5px;
+
+}
+nav ion-icon{
+    color:rgb(37, 34, 34);
+    vertical-align: middle;
+    font-size: 1em;
+    background-color: beige;
+    border-radius: 50%;
+    padding:10px;
+ 
+}
+.left a{
+    padding:10px;
+    color: black;
+    text-decoration: none;
+}
+.green-dot{
+    background-color: green;
+    border-radius: 50%;
+    height:10px;
+    width:10px;
+}
+.right a:first-of-type{
+    position: relative;
+}
+
+.right a:first-of-type span{
+    position:absolute;
+    right:.4px;
+    top:.4px;
+}
+.right a:last-of-type{
+    position: relative;
+}
+
+.right a:last-of-type span{
+    position:absolute;
+    right:13px;
+    top:25px;
+}
+.hero{
+    background-color:  #7764d4;
+    height:37vh;
+    display:flex;
+    color:white;
+    justify-content: center;
+    column-gap: 150px;
+    position:relative;
+    
+
+}
+.hero .dropdown{
+    position :absolute;
+    right:20px;
+   top:20px;
+   background-color: green;
+z-index:1000;
+   opacity:0;
+   
+}
+.hero:hover .dropdown{ 
+  opacity:1;
+}
+
+
+.heroright{
+    align-self: flex-end;
+}
+.heroleft{
+    align-self: center;
+}
+.heroright img{
+    margin-bottom:0;
+    padding-bottom: 0;
+    height:100%;
+    
+}
+.heroleft p{
+    text-align: center;
+}
+.heroleft h1{
+    text-align: center;
+}
+.heroleft button{
+    height:50px;
+    width:160px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 1em;
+    border:none;
+    
+}
+
+.heroleft button:hover{
+    background-color: green;
+    color:white
+}
+.tab{
+    width: 98.5vw;
+    margin-inline: auto;
+    display:flex;
+    justify-content: space-evenly;
+   height:7vh;
+   background-color: white;
+}
+.info{
+    display:flex;
+    align-items: center;
+}
+.info ion-icon{
+    font-size: 1.5em;
+    color:rgb(234, 87, 87);
+    background-color: pink;
+    border-radius: 50%;
+    padding:15px;
+    margin-right: 10px;
+}
+.info div p{
+    margin-top: 2px;
+   
+}
+.info div h4{
+    margin-bottom: 2px;
+}
+.content{
+    
+    background-color: beige;
+  padding-top:2em;
+  border-bottom: 1px solid rgb(116, 97, 97);
+  width:50%;
+  margin-inline: auto;
+ padding-bottom: 4em;
+
+}
+.content img{
+    height:180px;
+    width: 250px;
+    object-fit: cover;
+}
+.cards{
+    display:flex;
+    justify-content: center;
+    column-gap: 2em;
+}
+.cards ion-icon{
+    align-self: center;
+}
+
+.card{
+    width: 250px;
+    height:420px;
+    background-color: white;
+}
+.card-body{
+    margin-left: 10px;
+}
+.second-line span:first-of-type{
+    color:yellowgreen
+}
+.third-line span:last-of-type{
+    text-decoration: line-through;
+    color:grey;
+}
+.three-lines{
+padding-bottom:25px;
+}
+.avatar-left img{
+    border-radius: 50%;
+    height:30px;
+    width:30px;
+    vertical-align: middle;
+}
+.avatar{
+    display:flex;
+    justify-content: space-between;
+}
+.avatar-right ion-icon{
+    vertical-align: middle;
+}
+.card img{
+    border-top-left-radius: 15px;
+    border-top-right-radius:15px ;
+}
+.card{
+    border-top-left-radius: 15px;
+    border-top-right-radius:15px ;
+}
+.links{
+    width:20%;
+    margin-inline: auto;
+    display:flex;
+    justify-content: space-evenly;
+    padding-top:10px;
+    padding-bottom:35px;
+}
+.links a{
+    text-decoration: none;
+    color:grey
+}
+.copyright{
+    color:grey;
+    width:12%;
+    margin-inline: auto;
+    padding:10px;
+}
+.content h2{
+    margin-left: 3.5em;
+}
+
+  
